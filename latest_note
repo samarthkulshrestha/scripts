@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/bin/ls -r ~/secondbrain/fleeting_notes/pdf/*.pdf | head -n1 | xargs zathura
