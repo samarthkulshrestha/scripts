@@ -1,0 +1,53 @@
+#!/bin/sh
+
+notification(){
+	notify-send "Now Playing: Lofi Radio ☕️🎶"
+}
+
+menu(){
+	printf "lofigirl\n"
+	printf "chillhop\n"
+	printf "boxlofi\n"
+	printf "thebootlegboy\n"
+	printf "radiospinner\n"
+	printf "smoothchill"
+}
+
+main() {
+	choice=$(menu | dmenu -i)
+
+	case $choice in
+		lofigirl)
+			notification ;
+				mpv "https://play.streamafrica.net/lofiradio"
+			break
+			;;
+		chillhop)
+			notification ;
+				mpv "http://stream.zeno.fm/fyn8eh3h5f8uv"
+			break
+			;;
+		boxlofi)
+			notification ;
+				mpv "http://stream.zeno.fm/f3wvbbqmdg8uv"
+			break
+			;;
+		thebootlegboy)
+			notification ;
+				mpv "http://stream.zeno.fm/0r0xa792kwzuv"
+			break
+			;;
+		radiospinner)
+			notification ;
+				mpv "https://live.radiospinner.com/lofi-hip-hop-64"
+			break
+			;;
+		smoothchill)
+			notification ;
+				mpv "https://media-ssl.musicradio.com/SmoothChill"
+			break
+			;;
+	esac
+}
+
+pkill -f http || main
