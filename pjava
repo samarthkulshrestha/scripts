@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -rf /tmp/processing
+mkdir /tmp/processing
+/usr/bin/processing-java --output=/tmp/processing/ --force --sketch=$1 --run
