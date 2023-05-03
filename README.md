@@ -17,6 +17,8 @@ samarth kulshrestha
 
 <img src="assets/command_line_fu.png" align="right" style="width: 100%;" />
 
+<br/><br/>
+
 Just random scripts, some written from scratch, some salvaged.
 
 ## Usage
