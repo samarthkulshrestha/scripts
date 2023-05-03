@@ -12,9 +12,39 @@ samarth kulshrestha
 <br/><br>
 </div>
 
+
+## Introduction
+
+<img src="assets/command_line_fu.png" style="width: 100%;" />
+
 Just random scripts, some written from scratch, some salvaged.
 
-# Licence
+## Usage
+
+- Clone this repository.
+```
+git clone https://github.com/samarthkulshrestha/scripts.git
+```
+
+- Enter the cloned repository directory.
+```
+cd scripts
+```
+
+- Add executable permissions to scripts you want to run.
+```
+chmod +x cpu
+```
+
+- Run the script.
+```
+./cpu
+```
+
+- If you want to run the scripts from outside of this directory, add the scripts
+  folder to the PATH environment variable.
+
+## Licence
 
 Licenced under the MIT License.
 
