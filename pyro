@@ -5,7 +5,7 @@
 mkdir -p $HOME/.cache/pyro
 
 menu="dmenu -i -l 25"
-baseurl="https://1337x.wtf"
+baseurl="https://www.1377x.to/"
 cachedir="$HOME/.cache/pyro"
 
 if [ -z $1 ]; then

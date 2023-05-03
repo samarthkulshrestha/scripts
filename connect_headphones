@@ -1,0 +1,7 @@
+#!/bin/sh
+hp_mac="7B:1B:8E:3B:A5:FA"
+hp_sink="bluez_output.7B_1B_8E_3B_A5_FA.1"
+
+bluetoothctl power on
+bluetoothctl connect $hp_mac
+pactl set-default-sink $hp_sink
