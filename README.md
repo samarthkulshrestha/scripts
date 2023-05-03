@@ -15,7 +15,7 @@ samarth kulshrestha
 
 ## Introduction
 
-<img src="assets/command_line_fu.png" align="right" style="width: 60%;" />
+<img src="assets/command_line_fu.png" align="right" style="width: 100%;" />
 
 Just random scripts, some written from scratch, some salvaged.
 
